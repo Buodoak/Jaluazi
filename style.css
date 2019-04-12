@@ -3,13 +3,6 @@
   padding: 0;
 
 }
-@media screen and (max-width:959px) {
-
-
-}
-@media (min-width:992px) {
-
-}
 .background{
   background-size: cover;
 }
@@ -89,7 +82,7 @@ text-align: center;
 .text-wrapper h1{
   position:absolute;
   left:575px;
-  top: 10px;
+  top: -25px;
   font-size: 165px;
   color:#695310;
 
