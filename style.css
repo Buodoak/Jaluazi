@@ -34,7 +34,7 @@ font-size: 30px;
 font-family: sans-serif;
 font-weight: bold;
 color:#CCCCFF;
-padding: 28px 65px;
+padding: 28px 60px;
 
 }
 
@@ -113,4 +113,33 @@ text-align: center;
 .socialmedia{
   position:absolute;
   left:450px;
+}
+/* media queries */
+
+@media (max-width:768px) {
+    header,
+    header nav,
+    header nav li{
+      float: none;
+      text-align: left;
+      width: 100%;
+      }
+
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+
+      header,
+      header nav,
+      header nav li{
+        float: none;
+        text-align: left;
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {
+    .desktop {
+
+    }
 }
